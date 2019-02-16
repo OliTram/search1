@@ -1,7 +1,5 @@
 void main ()
 {
-	System.out.println("added locally");
-	System.out.println("added online");
- 	System.out.println("added locally2");
-
+	String guestName = "Guest";
+	System.out.println("Hello " + guestName );
 }
