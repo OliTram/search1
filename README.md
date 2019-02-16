@@ -1,3 +1,2 @@
 # search1
-search tool
-modified locally
+search tool indexed incrementally
