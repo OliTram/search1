@@ -1,0 +1,23 @@
+<DbInfo accessType="efetch">
+    <FieldList>
+        <Field Name="ALL">
+            <FilterableName>All_Fields</FilterableName>
+        </Field>
+        <Field Name="UID">
+            <FilterableName>Gene-track_geneid</FilterableName>
+            <SelectableRetrieval>Entrezgene_track-info,Gene-track,Gene-track_geneid</SelectableRetrieval>
+        </Field>
+        <!--<Field Name="ORGN">-->
+            <!--<FilterableName>Org-ref_taxname</FilterableName>-->
+            <!--<SelectableRetrieval>Entrezgene_source,BioSource,BioSource_org,Org-ref,Org-ref_taxname</SelectableRetrieval>-->
+        <!--</Field>-->
+        <Field Name="Org-ref_taxname">
+            <FilterableName>Org-ref_taxname</FilterableName>
+            <SelectableRetrieval>Entrezgene_source,BioSource,BioSource_org,Org-ref,Org-ref_taxname</SelectableRetrieval>
+        </Field>
+        <Field Name="Org-ref_common">
+            <FilterableName>Org-ref_common</FilterableName>
+            <SelectableRetrieval>Entrezgene_source,BioSource,BioSource_org,Org-ref,Org-ref_common</SelectableRetrieval>
+        </Field>
+    </FieldList>
+</DbInfo>

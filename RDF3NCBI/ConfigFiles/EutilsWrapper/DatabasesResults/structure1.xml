@@ -1,0 +1,76 @@
+<DbInfo accessType="esummary">
+    <FieldList>
+        <Field Name="UID">
+            <FilterableName>Id</FilterableName>
+            <SelectableRetrieval>Id</SelectableRetrieval>
+        </Field>
+        <Field Name="ACCN">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="PDSC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="ECNO">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="RESO">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="EXPM">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="PCLA">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="PDD">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="MDAT">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="ORGN" Type="list">
+           <FilterableName>Item(Name=OrganismList)</FilterableName>
+           <SelectableRetrieval>Item(Name=OrganismList)</SelectableRetrieval>
+       </Field>
+        <Field Name="LCOD">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="LCOU">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="MPRC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="MDRC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="MRRC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="PCC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="DCC">
+            <FilterableName>Item(Name=PdbAcc)</FilterableName>
+            <SelectableRetrieval>Item(Name=PdbAcc)</SelectableRetrieval>
+        </Field>
+        <Field Name="RCC">
+            <FilterableName>DocumentSummary,RNAChainCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,RNAChainCount</SelectableRetrieval>
+        </Field>
+    </FieldList>
+</DbInfo>

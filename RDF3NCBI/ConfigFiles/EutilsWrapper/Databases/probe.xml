@@ -1,0 +1,384 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>probe</DbName>
+	<MenuName>Probe</MenuName>
+	<Description>Entrez Probe Database</Description>
+	<Count>27940164</Count>
+	<LastUpdate>2013/04/09 00:48</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>109063568</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>22</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author</Description>
+			<TermCount>44553</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DIST</Name>
+			<FullName>Distributor</FullName>
+			<Description>Distributor</Description>
+			<TermCount>50</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>257063</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GNID</Name>
+			<FullName>Gene ID</FullName>
+			<Description>Gene ID</Description>
+			<TermCount>407451</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KYWD</Name>
+			<FullName>Application</FullName>
+			<Description>Application</Description>
+			<TermCount>280</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism</Description>
+			<TermCount>34266</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRNM</Name>
+			<FullName>Probe Name</FullName>
+			<Description>Probe Name</Description>
+			<TermCount>51910104</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRTY</Name>
+			<FullName>Probe Type</FullName>
+			<Description>Probe Type</Description>
+			<TermCount>105</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties</Description>
+			<TermCount>11</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Text Word</Description>
+			<TermCount>28418300</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Title</Description>
+			<TermCount>37294354</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CAPT</Name>
+			<FullName>Caption</FullName>
+			<Description>Caption</Description>
+			<TermCount>36979869</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBM</Name>
+			<FullName>Submission</FullName>
+			<Description>Submission</Description>
+			<TermCount>10527</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>COLL</Name>
+			<FullName>Platform Name</FullName>
+			<Description>Platform Name</Description>
+			<TermCount>130</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SEQ</Name>
+			<FullName>Sequence</FullName>
+			<Description>Sequence</Description>
+			<TermCount>21524774</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Sequence accession</FullName>
+			<Description>Semicolon delimited sequence accession(s)</Description>
+			<TermCount>1163034</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>Pubmed ID</FullName>
+			<Description>Pubmed ID</Description>
+			<TermCount>4881</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of the last update of the submission</Description>
+			<TermCount>383</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>Date sequence added to GenBank</Description>
+			<TermCount>936</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VAL</Name>
+			<FullName>Validation</FullName>
+			<Description>Validation</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PLID</Name>
+			<FullName>Platform ID</FullName>
+			<Description>Platform ID</Description>
+			<TermCount>124</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>USTS</Name>
+			<FullName>UniSTS ID</FullName>
+			<Description>Legacy UniSTS ID</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PSET</Name>
+			<FullName>Probeset UID</FullName>
+			<Description>Probeset(s) this probe belongs to</Description>
+			<TermCount>71792</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>probe_biosystems_gene</Name>
+				<Menu>Pathways + GO</Menu>
+				<Description>Pathways, annotations and biological systems (BioSystems) that cite genes for the current probes.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Gene entry</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Related Nucleotide entry</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>Related EST entry</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Related GSS entry</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_pcassay</Name>
+				<Menu>BioAssay</Menu>
+				<Description>PubChem BioAssays</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem Compounds</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_probe</Name>
+				<Menu>Neighbor Links</Menu>
+				<Description>Related Probe entries</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_probe_equiv</Name>
+				<Menu>Equivalent Probe Links</Menu>
+				<Description>Equivalent Probe entries</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_probe_match</Name>
+				<Menu>Matching Probe Links</Menu>
+				<Description>Matching Probe entries</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related PubMed article</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNPs</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>probe_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Taxonomy entry</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

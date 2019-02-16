@@ -1,0 +1,370 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>books</DbName>
+	<MenuName>Books</MenuName>
+	<Description>Books Index Database</Description>
+	<DbBuild>Build130409-0345.1</DbBuild>
+	<Count>252385</Count>
+	<LastUpdate>2013/04/09 05:26</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>7164636</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>1596</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Section's author</Description>
+			<TermCount>36420</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CA</Name>
+			<FullName>Corporate Author</FullName>
+			<Description>Corporate Author of publication</Description>
+			<TermCount>2044</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FA</Name>
+			<FullName>Full Author Name</FullName>
+			<Description>Full Author Name(s) of publication</Description>
+			<TermCount>58363</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FE</Name>
+			<FullName>Full Editor Name</FullName>
+			<Description>f</Description>
+			<TermCount>2114</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Section's title</Description>
+			<TermCount>362169</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TYPE</Name>
+			<FullName>Type</FullName>
+			<Description>Section's type</Description>
+			<TermCount>10</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STXT</Name>
+			<FullName>Full Text</FullName>
+			<Description>Section's full text</Description>
+			<TermCount>6040114</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CONP</Name>
+			<FullName>Concept Phrases</FullName>
+			<Description>Generated keywords</Description>
+			<TermCount>676178</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BOOK</Name>
+			<FullName>Book</FullName>
+			<Description>ID of the book that contains the document</Description>
+			<TermCount>1556</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PMID</FullName>
+			<Description>PubMed ID</Description>
+			<TermCount>5265</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RMID</Name>
+			<FullName>RefPMID</FullName>
+			<Description>Citation search by PmId</Description>
+			<TermCount>287988</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RID</Name>
+			<FullName>Rid</FullName>
+			<Description>Book internal ID</Description>
+			<TermCount>504763</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PUBN</Name>
+			<FullName>Publisher</FullName>
+			<Description>Publisher's Name</Description>
+			<TermCount>352</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Year</FullName>
+			<Description>Publication Year</Description>
+			<TermCount>28</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ISBN</Name>
+			<FullName>ISBN</FullName>
+			<Description>ISBN</Description>
+			<TermCount>1528</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ATTR</Name>
+			<FullName>Attribute</FullName>
+			<Description>Attributes in key value ordered pairs</Description>
+			<TermCount>1</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EDIT</Name>
+			<FullName>Editor</FullName>
+			<Description>Section's Editor</Description>
+			<TermCount>1184</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RD</Name>
+			<FullName>Release Date</FullName>
+			<Description>Release Date</Description>
+			<TermCount>525</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUB</Name>
+			<FullName>Subject</FullName>
+			<Description>Subject</Description>
+			<TermCount>28</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RT</Name>
+			<FullName>Resource Type</FullName>
+			<Description>Resource Type</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AID</Name>
+			<FullName>Accession ID</FullName>
+			<Description>Accession ID</Description>
+			<TermCount>42625</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BACI</Name>
+			<FullName>Book Accession ID</FullName>
+			<Description>Book Accession ID</Description>
+			<TermCount>1556</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHID</Name>
+			<FullName>Chapter Accession ID</FullName>
+			<Description>Chapter Accession ID</Description>
+			<TermCount>42625</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DN</Name>
+			<FullName>Disease</FullName>
+			<Description>Disease</Description>
+			<TermCount>4842</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GS</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>1118</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PN</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Protein Name</Description>
+			<TermCount>2192</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>books_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene records cited in chapters on the NCBI bookshelf. Links are provided by the authors or the NCBI Bookshelf staff.</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>books_medgen</Name>
+				<Menu>MedGen</Menu>
+				<Description>Related information in MedGen</Description>
+				<DbTo>medgen</DbTo>
+			</Link>
+			<Link>
+				<Name>books_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Related OMIM records</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>books_pcsubstance</Name>
+				<Menu>Substance Links</Menu>
+				<Description>Related PubChem Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>books_pmc_refs</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PubMed Central citations</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>books_pubmed_refs</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Links to pubmed</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

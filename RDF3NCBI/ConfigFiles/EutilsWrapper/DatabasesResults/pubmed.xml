@@ -1,0 +1,39 @@
+<DbInfo accessType="efetch">
+    <FieldList>
+        <Field Name="ALL">
+            <FilterableName>All_Fields</FilterableName>
+        </Field>
+        <Field Name="UID">
+            <FilterableName>PMID</FilterableName>
+            <SelectableRetrieval>MedlineCitation,PMID</SelectableRetrieval>
+        </Field>
+        <Field Name="TITL">
+            <FilterableName>ArticleTitle</FilterableName>
+            <SelectableRetrieval>MedlineCitation,Article,ArticleTitle</SelectableRetrieval>
+        </Field>
+        <Field Name="AUTH" Type="list">
+            <FilterableName>Author</FilterableName>
+            <SelectableRetrieval>MedlineCitation,Article,AuthorList</SelectableRetrieval>
+        </Field>
+        <Field Name="JOUR">
+            <FilterableName>Journal</FilterableName>
+            <SelectableRetrieval>MedlineCitation,Article,Journal,Title</SelectableRetrieval>
+        </Field>
+        <Field Name="MedlineJournalInfo-Country">
+            <FilterableName>MedlineJournalInfo-Country</FilterableName>
+            <SelectableRetrieval>MedlineCitation,MedlineJournalInfo,Country</SelectableRetrieval>
+        </Field>
+        <Field Name="MedlineJournalInfo-MedlineTA">
+            <FilterableName>MedlineJournalInfo-MedlineTA</FilterableName>
+            <SelectableRetrieval>MedlineCitation,MedlineJournalInfo,MedlineTA</SelectableRetrieval>
+        </Field>
+        <Field Name="MedlineJournalInfo-NlmUniqueID">
+            <FilterableName>MedlineJournalInfo-NlmUniqueID</FilterableName>
+            <SelectableRetrieval>MedlineCitation,MedlineJournalInfo,NlmUniqueID</SelectableRetrieval>
+        </Field>
+        <Field Name="MedlineJournalInfo-ISSNLinking">
+            <FilterableName>MedlineJournalInfo-ISSNLinking</FilterableName>
+            <SelectableRetrieval>MedlineCitation,MedlineJournalInfo,ISSNLinking</SelectableRetrieval>
+        </Field>
+    </FieldList>
+</DbInfo>

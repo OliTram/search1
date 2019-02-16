@@ -1,0 +1,397 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>geoprofiles</DbName>
+	<MenuName>GEO Profiles</MenuName>
+	<Description>Genes Expression Omnibus</Description>
+	<DbBuild>Build130314-1220m.26</DbBuild>
+	<Count>82738923</Count>
+	<LastUpdate>2013/04/09 04:41</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>9474055</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>22</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Exploded organism names</Description>
+			<TermCount>2398</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>GEO Accession</FullName>
+			<Description>Accession for GDS (DataSet), GPL (Platform), GSM (Sample), GSE (Series)</Description>
+			<TermCount>65611</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GDST</Name>
+			<FullName>GDS Text</FullName>
+			<Description>GDS text from title and description</Description>
+			<TermCount>44069</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GEOT</Name>
+			<FullName>GEO Description/Title Text</FullName>
+			<Description>Sample titles</Description>
+			<TermCount>49065</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RTYP</Name>
+			<FullName>Platform Reporter Type</FullName>
+			<Description>Platform reporter type, e.g. genbank, clone, orf</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GTYP</Name>
+			<FullName>DataSet Type</FullName>
+			<Description>Type of dataset</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VTYP</Name>
+			<FullName>Sample Value Type</FullName>
+			<Description>Sample value type, e.g. log ratio, count</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NSAM</Name>
+			<FullName>Number of Samples</FullName>
+			<Description>Number of samples</Description>
+			<TermCount>133</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRC</Name>
+			<FullName>Sample Source</FullName>
+			<Description>Sample source</Description>
+			<TermCount>19944</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ID</Name>
+			<FullName>ID_REF</FullName>
+			<Description>Spot ID from GEO Platform, SAGE tag, Affy ProbeSet ID</Description>
+			<TermCount>3488478</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NAME</Name>
+			<FullName>Reporter Identifier</FullName>
+			<Description>Name or identifier for the spot, e.g. GenBank accession, CLONE_ID, ORF etc.</Description>
+			<TermCount>3047585</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SYMB</Name>
+			<FullName>Gene Symbol</FullName>
+			<Description>Gene symbol (name) from Entrez-Gene or Entrez-UniGene.</Description>
+			<TermCount>309441</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GDSC</Name>
+			<FullName>Gene Description</FullName>
+			<Description>Gene Description</Description>
+			<TermCount>1102785</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RSTD</Name>
+			<FullName>Ranked Standard Deviation</FullName>
+			<Description>Ranked standard deviation</Description>
+			<TermCount>101</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RMAX</Name>
+			<FullName>Max Value Rank</FullName>
+			<Description>Maximal value of ranks</Description>
+			<TermCount>101</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RMIN</Name>
+			<FullName>Min Value Rank</FullName>
+			<Description>Minimal value of ranks</Description>
+			<TermCount>101</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FINF</Name>
+			<FullName>Flag Information</FullName>
+			<Description>Indicates an interesting or notable uid in the GDS context</Description>
+			<TermCount>192</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FTYP</Name>
+			<FullName>Flag Type</FullName>
+			<Description>Type of flag that indicates a uid of interest, or outliers etc.</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GI</Name>
+			<FullName>GI</FullName>
+			<Description>GenBank Identifier</Description>
+			<TermCount>1485595</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ATYP</Name>
+			<FullName>Annotation Type</FullName>
+			<Description>Type of annotation (gene, unigene, nucleotide)</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GO</Name>
+			<FullName>Gene Ontology</FullName>
+			<Description>Gene Ontology</Description>
+			<TermCount>35498</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>Chromosomes</Description>
+			<TermCount>73</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CPOS</Name>
+			<FullName>Base Position</FullName>
+			<Description>Chromosome base position</Description>
+			<TermCount>804129</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>geoprofiles_biosystems_gene</Name>
+				<Menu>Pathways + GO</Menu>
+				<Description>Pathways, annotations and biological systems (BioSystems) that cite genes for the current profiles.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_gds</Name>
+				<Menu>Related DataSets</Menu>
+				<Description>Related GEO DataSets</Description>
+				<DbTo>gds</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>based on gene annotation from platform probe accessio</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_geoprofiles_chr</Name>
+				<Menu>Chromosome neighbors</Menu>
+				<Description>Chromosome Neighbors</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_geoprofiles_homologs</Name>
+				<Menu>Homologene neighbors</Menu>
+				<Description>GEO Homologs</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_geoprofiles_prof</Name>
+				<Menu>Profile neighbors</Menu>
+				<Description>pre-calculated neighbors based on Pearson correlation</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_geoprofiles_seq</Name>
+				<Menu>Sequence neighbors</Menu>
+				<Description>sequence similarity neighbors - based on Nucleotide neighbors.</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>pre-calculated neighbors based on chromosomal position</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Nucleotide sequences associated with GEO Profile record</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>EST sequences associated with GEO Profile record</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>GSS sequences associated with GEO Profile record</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Related OMIM entry</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Articles associated with GEO record</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Taxonomy records associated with GEO record</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>geoprofiles_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

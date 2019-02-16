@@ -1,0 +1,8 @@
+<DbInfo accessType="esummary">
+    <FieldList>
+        <Field Name="UID" Type="attr">
+            <FilterableName>DocumentSummary,uid</FilterableName>
+            <SelectableRetrieval>DocumentSummary,uid</SelectableRetrieval>
+        </Field>
+    </FieldList>
+</DbInfo>

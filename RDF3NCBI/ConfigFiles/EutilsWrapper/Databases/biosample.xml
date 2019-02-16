@@ -1,0 +1,234 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>biosample</DbName>
+	<MenuName>BioSample</MenuName>
+	<Description>BioSample Database</Description>
+	<Count>1846206</Count>
+	<LastUpdate>2013/04/09 08:09</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>11278112</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>49</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Accession number of sequence</Description>
+			<TermCount>1845405</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in definition line</Description>
+			<TermCount>206193</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>93</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>6852860</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Scientific and common names of organism, and all higher levels of taxonomy</Description>
+			<TermCount>93250</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author(s) of publication</Description>
+			<TermCount>14192</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>Date sequence added to GenBank</Description>
+			<TermCount>2482</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of last update</Description>
+			<TermCount>364</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ATNM</Name>
+			<FullName>Attribute Name</FullName>
+			<Description>Attribute Name</Description>
+			<TermCount>274</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ATTR</Name>
+			<FullName>Attribute</FullName>
+			<Description>Attribute</Description>
+			<TermCount>3596159</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CEN</Name>
+			<FullName>Submitter Organization</FullName>
+			<Description>Submitter Organization(s)</Description>
+			<TermCount>8800</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>biosample_bioproject</Name>
+				<Menu>BioProject</Menu>
+				<Description>BioProject links</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_gap</Name>
+				<Menu>dbGap Links</Menu>
+				<Description>Links to dbGap Studies</Description>
+				<DbTo>gap</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_gds</Name>
+				<Menu>GEO DataSets links</Menu>
+				<Description>GEO DataSets links</Description>
+				<DbTo>gds</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_nuccore</Name>
+				<Menu>Nucleotide links</Menu>
+				<Description>Nucleotide links</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>EST links</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>GSS links</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_omim</Name>
+				<Menu>OMIM links</Menu>
+				<Description>OMIM links</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed links</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNP record</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_sra</Name>
+				<Menu>SRA Links</Menu>
+				<Description>Links to SRA experiments</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>biosample_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Links to Taxonomy</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

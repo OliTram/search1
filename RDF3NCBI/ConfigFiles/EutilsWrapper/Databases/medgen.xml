@@ -1,0 +1,317 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>medgen</DbName>
+	<MenuName>MedGen</MenuName>
+	<Description>Medgen Database</Description>
+	<DbBuild>Build130407-1122.1</DbBuild>
+	<Count>166459</Count>
+	<LastUpdate>2013/04/07 11:54</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>1198336</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to each record</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>20</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>concept identifier for the record</Description>
+			<TermCount>166459</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Full name of the concept from the top-ranked vocabulary</Description>
+			<TermCount>215547</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>96</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of last update</Description>
+			<TermCount>0</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>776523</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DEFN</Name>
+			<FullName>Definition</FullName>
+			<Description>Text from the definition of the concept</Description>
+			<TermCount>176831</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VOCB</Name>
+			<FullName>Vocabulary</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XTIT</Name>
+			<FullName>ExactTitle</FullName>
+			<Description>Exact Title</Description>
+			<TermCount>169408</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CODE</Name>
+			<FullName>Source ID</FullName>
+			<Description>Any identifier used by any vocabulary</Description>
+			<TermCount>242591</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REFR</Name>
+			<FullName>Reference</FullName>
+			<Description>Authors and titles of citations</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>Chromosome number; also 'mitochondrial', 'unknown' properties</Description>
+			<TermCount>24</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLIN</Name>
+			<FullName>Clinical Features</FullName>
+			<Description>Clinical features of disorder integrated from OMIM and Human Phenotype Ontology (HPO)</Description>
+			<TermCount>19932</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Name of gene associated with record</Description>
+			<TermCount>5361</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CPOS</Name>
+			<FullName>Base Position</FullName>
+			<Description>Chromosome base position</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>OID</Name>
+			<FullName>MIM ID</FullName>
+			<Description>Unique number assigned to OMIM record</Description>
+			<TermCount>7245</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GFN</Name>
+			<FullName>Gene Full Name</FullName>
+			<Description>Gene full name</Description>
+			<TermCount>5627</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KWD</Name>
+			<FullName>Keyword</FullName>
+			<Description>Keyword relevant to the concept</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MINH</Name>
+			<FullName>Mode Of Inheritance</FullName>
+			<Description>Mode of inheritance</Description>
+			<TermCount>24</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SNM</Name>
+			<FullName>SNOMED CT CUI</FullName>
+			<Description>SNOMED Concept ID</Description>
+			<TermCount>20753</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>medgen_biosystems_gene_diseases</Name>
+				<Menu>Pathways + GO</Menu>
+				<Description>Pathways, annotations and biological systems (BioSystems) that cite genes for the current record.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_books</Name>
+				<Menu>NCBI Bookshelf</Menu>
+				<Description>Related information in NCBI Bookshelf</Description>
+				<DbTo>books</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_gene_diseases</Name>
+				<Menu>Gene</Menu>
+				<Description>Related information in NCBI Gene</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_mesh</Name>
+				<Menu>MeSH</Menu>
+				<Description>Related Medical Subject Headings</Description>
+				<DbTo>mesh</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_omim</Name>
+				<Menu>OMIM</Menu>
+				<Description>Related records in OMIM</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_omim_gene</Name>
+				<Menu>OMIM(Genes)</Menu>
+				<Description>OMIM records containing genes associated with phenotypes registered in MedGen</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_pmc</Name>
+				<Menu>PMC Articles</Menu>
+				<Description>Related information in PubMed Central Links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_pubmed</Name>
+				<Menu>PubMed</Menu>
+				<Description>Related literature resources in PubMed</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_pubmed_bookshelf_cited</Name>
+				<Menu>PubMed (Bookshelf cited)</Menu>
+				<Description>Links to PubMed based on citations in GeneReviews and Medical Genetics Summaries</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>medgen_pubmed_omim</Name>
+				<Menu>PubMed (OMIM)</Menu>
+				<Description>Related literature resources in PubMed</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

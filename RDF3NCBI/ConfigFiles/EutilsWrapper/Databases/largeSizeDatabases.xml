@@ -1,0 +1,5 @@
+<!-- this file contains names of databases whose results are extremely large. The results of these databases should not be treated in groups,
+but individually to avoid heap overflow -->
+<largeSizeDatabases>
+    <databases>gene</databases>
+</largeSizeDatabases>

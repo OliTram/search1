@@ -1,0 +1,76 @@
+<DbInfo accessType="esummary">
+    <FieldList>
+        <Field Name="UID" Type="attr">
+            <FilterableName>DocumentSummary,uid</FilterableName>
+            <SelectableRetrieval>DocumentSummary,uid</SelectableRetrieval>
+        </Field>
+        <Field Name="ACCN">
+            <FilterableName>DocumentSummary,PdbAcc</FilterableName>
+            <SelectableRetrieval>DocumentSummary,PdbAcc</SelectableRetrieval>
+        </Field>
+        <Field Name="PDSC">
+            <FilterableName>DocumentSummary,PdbDescr</FilterableName>
+            <SelectableRetrieval>DocumentSummary,PdbDescr</SelectableRetrieval>
+        </Field>
+        <Field Name="ECNO">
+            <FilterableName>DocumentSummary,EC</FilterableName>
+            <SelectableRetrieval>DocumentSummary,EC</SelectableRetrieval>
+        </Field>
+        <Field Name="RESO">
+            <FilterableName>DocumentSummary,Resolution</FilterableName>
+            <SelectableRetrieval>DocumentSummary,Resolution</SelectableRetrieval>
+        </Field>
+        <Field Name="EXPM">
+            <FilterableName>DocumentSummary,ExpMethod</FilterableName>
+            <SelectableRetrieval>DocumentSummary,ExpMethod</SelectableRetrieval>
+        </Field>
+        <Field Name="PCLA">
+            <FilterableName>DocumentSummary,PdbClass</FilterableName>
+            <SelectableRetrieval>DocumentSummary,PdbClass</SelectableRetrieval>
+        </Field>
+        <Field Name="PDD">
+            <FilterableName>DocumentSummary,PdbDepositDate</FilterableName>
+            <SelectableRetrieval>DocumentSummary,PdbDepositDate</SelectableRetrieval>
+        </Field>
+        <Field Name="MDAT">
+            <FilterableName>DocumentSummary,MMDBEntryDate</FilterableName>
+            <SelectableRetrieval>DocumentSummary,MMDBEntryDate</SelectableRetrieval>
+        </Field>
+        <Field Name="ORGN" Type="list">
+           <FilterableName>DocumentSummary,OrganismList</FilterableName>
+           <SelectableRetrieval>DocumentSummary,OrganismList</SelectableRetrieval>
+       </Field>
+        <Field Name="LCOD">
+            <FilterableName>DocumentSummary,LigCode</FilterableName>
+            <SelectableRetrieval>DocumentSummary,LigCode</SelectableRetrieval>
+        </Field>
+        <Field Name="LCOU">
+            <FilterableName>DocumentSummary,LigCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,LigCount</SelectableRetrieval>
+        </Field>
+        <Field Name="MPRC">
+            <FilterableName>DocumentSummary,ModProteinResCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,ModProteinResCount</SelectableRetrieval>
+        </Field>
+        <Field Name="MDRC">
+            <FilterableName>DocumentSummary,ModDNAResCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,ModDNAResCount</SelectableRetrieval>
+        </Field>
+        <Field Name="MRRC">
+            <FilterableName>DocumentSummary,ModRNAResCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,ModRNAResCount</SelectableRetrieval>
+        </Field>
+        <Field Name="PCC">
+            <FilterableName>DocumentSummary,ProteinChainCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,ProteinChainCount</SelectableRetrieval>
+        </Field>
+        <Field Name="DCC">
+            <FilterableName>DocumentSummary,DNAChainCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,DNAChainCount</SelectableRetrieval>
+        </Field>
+        <Field Name="RCC">
+            <FilterableName>DocumentSummary,RNAChainCount</FilterableName>
+            <SelectableRetrieval>DocumentSummary,RNAChainCount</SelectableRetrieval>
+        </Field>
+    </FieldList>
+</DbInfo>

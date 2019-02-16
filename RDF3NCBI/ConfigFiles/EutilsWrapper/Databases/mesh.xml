@@ -1,0 +1,187 @@
+<eInfoResult>
+	<DbInfo>
+	<DbName>mesh</DbName>
+	<MenuName>MeSH</MenuName>
+	<Description>MeSH Database</Description>
+	<Count>243893</Count>
+	<LastUpdate>2013/04/07 09:53</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>1666809</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>19</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>TN</Name>
+			<FullName>Tree Number</FullName>
+			<Description>Tree Number</Description>
+			<TermCount>55056</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>MESH</Name>
+			<FullName>MeSH Terms</FullName>
+			<Description>MeSH Terms</Description>
+			<TermCount>199937</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBS</Name>
+			<FullName>Supplementary Concept</FullName>
+			<Description>Supplementary Concept</Description>
+			<TermCount>530345</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text</Description>
+			<TermCount>948011</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALSO</Name>
+			<FullName>See Also</FullName>
+			<Description>See Also</Description>
+			<TermCount>8966</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>PREV</Name>
+			<FullName>Previous Indexing</FullName>
+			<Description>Previous Indexing</Description>
+			<TermCount>8009</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>NOTE</Name>
+			<FullName>Scope Note</FullName>
+			<Description>Scope Note</Description>
+			<TermCount>413165</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REG</Name>
+			<FullName>Registry Number</FullName>
+			<Description>Registry Number</Description>
+			<TermCount>92849</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MULT</Name>
+			<FullName>Multi</FullName>
+			<Description>Multi</Description>
+			<TermCount>730238</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>TYPE</Name>
+			<FullName>Record Type</FullName>
+			<Description>Record type - main heading, subheading, pharmacological action, substance name, publication type</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>mesh_gap</Name>
+				<Menu>dbGaP Links</Menu>
+				<Description>dbGaP Links</Description>
+				<DbTo>gap</DbTo>
+			</Link>
+			<Link>
+				<Name>mesh_medgen</Name>
+				<Menu>MedGen</Menu>
+				<Description>Related information in MedGen</Description>
+				<DbTo>medgen</DbTo>
+			</Link>
+			<Link>
+				<Name>mesh_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>Related PubChem Compound with MeSH</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>mesh_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>Related PubChem Substance with MeSH</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>mesh_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Link to organism in taxonomy database.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>
